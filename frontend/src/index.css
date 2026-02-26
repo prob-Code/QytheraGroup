@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  
+  --color-primary-blue: #2563EB;
+  --color-dark-blue: #1E40AF;
+  --color-slate-50: #f8fafc;
+  --color-pure-white: #ffffff;
+  --color-overlay-bg: #0B1120;
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white/40 backdrop-blur-md border border-white/20 shadow-[0_8px_32px_req(0,0,0,0.1)];
+  }
+  
+  .glass-badge {
+    @apply bg-white/70 backdrop-blur-sm border border-white/30 shadow-lg rounded-2xl;
+  }
+}
+
+html, body {
+  font-family: var(--font-poppins);
+  background-color: var(--color-slate-50);
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hide dynamically injected Lovable badge/tags */
+#lovable-badge,
+.lovable-badge,
+a[href*="lovable.dev"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
