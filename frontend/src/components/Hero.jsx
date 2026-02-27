@@ -26,7 +26,9 @@ const Hero = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
                             <a
-                                href="#domains"
+                                href="https://forms.gle/i4X5pDwVM6FGWdrTA"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="px-8 py-4 rounded-xl bg-[#2563EB] text-white font-bold hover:bg-blue-700 transition-all flex items-center justify-center gap-2"
                             >
                                 Explore Internships <i className="fa-solid fa-arrow-right"></i>

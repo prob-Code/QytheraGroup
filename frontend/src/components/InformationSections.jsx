@@ -57,40 +57,40 @@ const InformationSections = () => {
 
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
                         {/* Card 1 */}
-                        <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group">
+                        <a href="https://forms.gle/i4X5pDwVM6FGWdrTA" target="_blank" rel="noopener noreferrer" className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group cursor-pointer block">
                             <div className="w-14 h-14 rounded-2xl bg-blue-50 text-[#3B82F6] flex items-center justify-center text-2xl mb-6 group-hover:bg-[#3B82F6] group-hover:text-white transition-colors duration-300">
                                 <i className="fa-solid fa-user-group"></i>
                             </div>
                             <h3 className="text-xl md:text-2xl font-black text-slate-900 mb-3">Industry Mentors</h3>
                             <p className="text-slate-500 text-[15px] leading-relaxed font-medium">Learn directly from seasoned professionals with years of real-world experience in top tech companies.</p>
-                        </div>
+                        </a>
 
                         {/* Card 2 */}
-                        <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group">
+                        <a href="https://forms.gle/i4X5pDwVM6FGWdrTA" target="_blank" rel="noopener noreferrer" className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group cursor-pointer block">
                             <div className="w-14 h-14 rounded-2xl bg-blue-50 text-[#3B82F6] flex items-center justify-center text-2xl mb-6 group-hover:bg-[#3B82F6] group-hover:text-white transition-colors duration-300">
                                 <i className="fa-regular fa-building"></i>
                             </div>
                             <h3 className="text-xl md:text-2xl font-black text-slate-900 mb-3">Verified Companies</h3>
                             <p className="text-slate-500 text-[15px] leading-relaxed font-medium">All partner companies are thoroughly vetted to ensure quality placements and genuine work environments.</p>
-                        </div>
+                        </a>
 
                         {/* Card 3 */}
-                        <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group">
+                        <a href="https://forms.gle/i4X5pDwVM6FGWdrTA" target="_blank" rel="noopener noreferrer" className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group cursor-pointer block">
                             <div className="w-14 h-14 rounded-2xl bg-blue-50 text-[#3B82F6] flex items-center justify-center text-2xl mb-6 group-hover:bg-[#3B82F6] group-hover:text-white transition-colors duration-300">
                                 <i className="fa-regular fa-folder-open"></i>
                             </div>
                             <h3 className="text-xl md:text-2xl font-black text-slate-900 mb-3">Real-World Projects</h3>
                             <p className="text-slate-500 text-[15px] leading-relaxed font-medium">Work on live projects that impact real businesses — not just practice exercises or simulated tasks.</p>
-                        </div>
+                        </a>
 
                         {/* Card 4 */}
-                        <div className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group">
+                        <a href="https://forms.gle/i4X5pDwVM6FGWdrTA" target="_blank" rel="noopener noreferrer" className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left border border-slate-100 relative z-10 group cursor-pointer block">
                             <div className="w-14 h-14 rounded-2xl bg-blue-50 text-[#3B82F6] flex items-center justify-center text-2xl mb-6 group-hover:bg-[#3B82F6] group-hover:text-white transition-colors duration-300">
                                 <i className="fa-solid fa-award"></i>
                             </div>
                             <h3 className="text-xl md:text-2xl font-black text-slate-900 mb-3">Certification</h3>
                             <p className="text-slate-500 text-[15px] leading-relaxed font-medium">Receive an industry-recognized internship certificate and letter of recommendation upon completion.</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
