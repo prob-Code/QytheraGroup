@@ -253,18 +253,19 @@ const InformationSections = () => {
                         {domains.map((domain, index) => (
                             <div
                                 key={index}
+                                onClick={() => window.open('https://forms.gle/i4X5pDwVM6FGWdrTA', '_blank', 'noopener,noreferrer')}
                                 className="group bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col items-start cursor-pointer border border-transparent hover:border-blue-100 relative"
                             >
                                 <div className="w-full flex justify-between items-start mb-6">
                                     <div className="w-12 h-12 rounded-xl bg-[#EFF6FF] text-[#2563EB] flex items-center justify-center text-xl">
                                         <i className={`fa-solid ${domain.icon}`}></i>
                                     </div>
-                                    <div className="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 group-hover:text-[#2563EB] group-hover:border-[#2563EB] group-hover:bg-[#EFF6FF] transition-all duration-300">
+                                    <div className="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 group-hover:text-[#2563EB] group-hover:border-[#2563EB] group-hover:bg-[#EFF6FF] transition-all duration-300 pointer-events-none">
                                         <i className="fa-solid fa-arrow-right -rotate-45 text-sm"></i>
                                     </div>
                                 </div>
                                 <h3 className="text-xl font-black text-slate-900 mb-2 tracking-tight">{domain.title}</h3>
-                                <p className="text-slate-500 text-[14px] leading-relaxed font-medium">{domain.subtitle}</p>
+                                <p className="text-slate-500 text-[14px] leading-relaxed font-medium pointer-events-none">{domain.subtitle}</p>
                             </div>
                         ))}
                     </div>
