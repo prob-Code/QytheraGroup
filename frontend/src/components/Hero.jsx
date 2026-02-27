@@ -16,12 +16,13 @@ const Hero = () => {
                             <span className="text-sm font-bold text-slate-600">Internship Program <span className="text-[#2563EB]">Venux Lane</span></span>
                         </div> */}
 
-                        <h1 className="text-5xl sm:text-6xl lg:text-[4.5rem] font-black text-slate-900 leading-[1.1] tracking-tight mb-6">
-                            Inventing the <span className="text-[#2563EB]">Future</span>
+                        <h1 className="text-5xl sm:text-6xl lg:text-[4rem] font-black text-slate-900 leading-[1.1] tracking-tight mb-6">
+                            Inventing the Future of <br className="hidden lg:block" />
+                            <span className="text-[#2563EB]">Scalable Agentic AI</span>
                         </h1>
 
                         <p className="text-xl text-slate-500 mb-10 max-w-xl leading-relaxed font-medium">
-                            Designing a Scalable Agentic AI Society for Tomorrow. Join Venux Lane internships to be part of the revolution in AI and Technology.
+                            Building the world's first scalable agentic AI society. Join Venux Lane internships to be part of the revolution redefining society through intelligent automation.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
