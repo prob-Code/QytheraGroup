@@ -22,7 +22,7 @@ const Hero = () => {
                         </h1>
 
                         <p className="text-xl text-slate-500 mb-10 max-w-xl leading-relaxed font-medium">
-                            Building the world's first scalable agentic AI society. Join Venux Lane internships to be part of the revolution redefining society through intelligent automation.
+                            Building the world's first scalable agentic AI society.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
