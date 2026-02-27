@@ -26,10 +26,10 @@ const Internship = () => {
                         Step into the future of scalable applications. An elite program engineered to transform beginners into highly-sought-after tech professionals through real-world execution.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-5 justify-center">
-                        <Link to="/signup" className="group relative px-8 py-4 rounded-2xl bg-white text-slate-900 font-bold text-lg transition-all hover:scale-105 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] overflow-hidden">
+                        <a href="https://forms.gle/i4X5pDwVM6FGWdrTA" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-4 rounded-2xl bg-white text-slate-900 font-bold text-lg transition-all hover:scale-105 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] overflow-hidden">
                             <span className="relative z-10">Apply Now</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-purple-100 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                        </Link>
+                        </a>
                         <a href="#overview" className="px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-white font-bold text-lg backdrop-blur-md hover:bg-white/15 transition-all text-center">
                             Explore Curriculum
                         </a>
