@@ -78,7 +78,11 @@ const Domains = () => {
             <section className="container mx-auto px-6 lg:px-8 max-w-7xl relative -mt-10 z-20">
                 <div className="grid lg:grid-cols-2 gap-8">
                     {domainTracks.map((track) => (
-                        <div key={track.id} className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                        <div
+                            key={track.id}
+                            onClick={() => window.open('https://forms.gle/i4X5pDwVM6FGWdrTA', '_blank', 'noopener,noreferrer')}
+                            className="bg-white rounded-[2rem] p-8 md:p-10 shadow-xl border border-slate-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full cursor-pointer"
+                        >
 
                             {/* Header */}
                             <div className="flex items-center gap-6 mb-6">
@@ -123,7 +127,7 @@ const Domains = () => {
                                 </div>
 
                                 {/* Apply button local to card */}
-                                <button className="w-full mt-6 py-3.5 rounded-xl bg-slate-50 text-slate-700 font-bold border border-slate-200 group-hover:bg-[#2563EB] group-hover:text-white group-hover:border-transparent transition-all duration-300">
+                                <button className="w-full mt-6 py-3.5 rounded-xl bg-slate-50 text-slate-700 font-bold border border-slate-200 group-hover:bg-[#2563EB] group-hover:text-white group-hover:border-transparent transition-all duration-300 pointer-events-none">
                                     Apply for {track.title}
                                 </button>
                             </div>
